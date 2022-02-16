@@ -1,0 +1,33 @@
+body{
+    background-color: #C8F2EF;
+}
+#head{
+    text-align: center;
+    font-family: cursive;
+    font-size: 60px;
+    color: #03045E;
+}
+#subhead{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    position: relative;
+    left: 35px;
+}
+.form{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #03045E;
+}
+.submit{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:red;
+    color: white;
+}
+.image{
+    position: relative;
+    left: 1100px;
+    bottom:850px;
+    border-radius: 50%;
+}
