@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create a new account</title>
+        <link rel="stylesheet" href="css/style2.css">
+    </head>
+
+
+    <body>
+        <h1 id="head">Sign up</h1>
+            <h4 id="subhead">Enter the details correctly.</h4>
+            <form class="form" action="">
+
+            <ul>
+            
+                <p>Name on card:  <input type="text" name="name" required></p>
+                <p> 
+                    Card Number: <input type="number" name="number" required>
+                </p>
+            
+                <p>Expiration Date: <input type="date" name="date" id="date" required></p>
+                <p>CVV: <input type="password" name="pass" id="pass" required></p>
+                <p>Contact number: <input type="number" name="number" id="number" required></p>
+                <p>Email: <input type="email" name="email" id="email"></p>
+
+                <p> Gender:</p>
+                <p> 
+                     Male <input type="radio" name="gender" >
+                    Female<input type="radio" name="gender" >
+                    Other <input type="radio" name="gender" >
+                </p>
+           
+                <p>Address: <textarea name="address" id="address" cols="30" rows="5"></textarea>
+           
+
+                <fieldset>
+                   <legend>Voice Biometric</legend>
+                        <p>
+                            Upload an audio file: <input type="file">
+                        </p>
+                </fieldset>
+                <br>
+        
+                <input class="submit" type="submit" value="Submit">
+                <p>Already have an account? <a href="index.html">Sign In</a></p>
+            
+                
+            </ul>
+
+        </form>
+    <img class="image img-fluid" src="img/signUp.jpeg" alt="" width="15%">
+    </body>
+
+</html>
