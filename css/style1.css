@@ -1,0 +1,43 @@
+body{
+    background-color: #C8F2EF;
+    text-align: center;
+}
+.head{
+    color: #03045E;
+    font-size: 70;
+    font-family:cursive;
+}
+.img{
+    position: relative;
+    right: 250px;
+}
+.biometric{
+    color: #03045E;
+    background-color: white;
+    padding: 10px;
+}
+#subhead{
+    color: red;
+    font-size: 30;
+}
+.input{
+    font-size: 20;
+    text-align: left;
+}
+#button{
+    font-size: 20;
+}
+.image{
+    position: relative;
+    bottom: 200px;
+}
+#p{
+    font-size: 20;
+    text-align: left;
+    color: green;
+}
+.tryagain{
+    color: red;
+    text-align: left;
+    font-size: smaller;
+}
